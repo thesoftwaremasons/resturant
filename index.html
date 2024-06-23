@@ -122,7 +122,7 @@ Product Lightbox
                                 <button class="quantity-plus qty-btn"><i class="far fa-chevron-up"></i></button>
                                 <button class="quantity-minus qty-btn"><i class="far fa-chevron-down"></i></button>
                             </div>
-                            <button class="th-btn">Add to Cart</button>
+                            <button class="th-btn add_cart">Add to Cart</button>
 
                         </div>
 
@@ -141,7 +141,7 @@ Product Lightbox
                 <h3 class="widget_title">Shopping cart</h3>
                 <div class="widget_shopping_cart_content">
                     <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <!-- <li class="woocommerce-mini-cart-item mini_cart_item">
                             <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
                             <a href="#"><img src="assets/img/product/menu_thumb_1.png" alt="Cart Image">Egg and
                                 Cocumber</a>
@@ -149,52 +149,17 @@ Product Lightbox
                                 <span class="woocommerce-Price-amount amount">
                                     <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
                             </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_2.png" alt="Cart Image">Tofu Red
-                                Chili</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_3.png" alt="Cart Image">Raw Salmon
-                                Salad</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_4.png" alt="Cart Image">Salmon Beef
-                                Stack</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_5.png" alt="Cart Image">Paper Letter
-                                Printing</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
-                            </span>
-                        </li>
+                        </li> -->
+                       
                     </ul>
-                    <p class="woocommerce-mini-cart__total total">
+                    <class="woocommerce-mini-cart__total">
                         <strong>Subtotal:</strong>
-                        <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
+                        <span class="woocommerce-Price-amount amount totalAmount">
+                           0</span>
                     </p>
                     <p class="woocommerce-mini-cart__buttons buttons">
-                        <a href="cart.html" class="th-btn wc-forward">View cart</a>
-                        <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
+                       
+                        <a href="https://paystack.com/pay/18sc3-nbxo" class="th-btn checkout">Checkout</a>
                     </p>
                 </div>
             </div>
@@ -251,18 +216,7 @@ Product Lightbox
                     </div>
                 </div>
             </div>
-            <!-- <div class="widget  ">
-                <h3 class="widget_title">Newsletter</h3>
-                <div class="newsletter-widget">
-                    <p class="footer-text">Subscribe to our newsletter and receive 15% discount from your order.</p>
-                    <form action="#" class="newsletter-form has-icon">
-                        <div class="form-group">
-                            <input class="form-control" type="email" placeholder="Enter email address" required="">
-                        </div>
-                        <button type="submit" class="icon-btn"><i class="fa-solid fa-paper-plane"></i></button>
-                    </form>
-                </div>
-            </div> -->
+         
         </div>
     </div>
     <div class="popup-search-box d-none d-lg-block">
@@ -321,7 +275,7 @@ Product Lightbox
                                     <button type="submit"><i class="far fa-search"></i></button>
                                 </form>
                                 <button type="button" class="icon-btn sideMenuToggler">
-                                    <span class="badge">0</span>
+                                    <span class="badge cart_badge">0</span>
                                     <i class="far fa-cart-shopping"></i>
                                 </button>
                                 <div class="header-call">
@@ -382,9 +336,9 @@ Hero Area
                                         <div class="shape1" data-ani="slideinup" data-ani-delay="0.5s">
                                             <img src="assets/img/hero/hero_shape_3_3.png" alt="shape">
                                         </div>
-                                        <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
+                                        <!-- <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
                                             <img src="assets/img/hero/hero_offer_1.svg" alt="shape">
-                                        </div>
+                                        </div> -->
                                         <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
                                             <img src="assets/mj/hero_shape_3_3.png" alt="Image">
                                         </div>
@@ -438,9 +392,9 @@ Hero Area
                                         <div class="shape1" data-ani="slideinup" data-ani-delay="0.5s">
                                             <img src="assets/img/hero/hero_shape_3_3.png" alt="shape">
                                         </div>
-                                        <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
+                                        <!-- <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
                                             <img src="assets/img/hero/hero_offer_1.svg" alt="shape">
-                                        </div>
+                                        </div> -->
                                         <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
                                             <img src="assets/mj/hero_3_1.png" alt="Image">
                                         </div>
@@ -470,7 +424,7 @@ Hero Area
                         </div>
                     </div>
                 </div>
-                <a href="reservation.html" class="hero-btn">Book A Dish</a>
+                <a href="#" class="hero-btn">Book A Dish</a>
                 <div class="hero-social">
                     <div class="social-links">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -882,7 +836,7 @@ Hero Area
                                     <span class="sub-title4">Need Booking?</span>
                                     <h2 class="sec-title">Reserve Your Food Now</h2>
                                 </div>
-                                <form action="mail.php" method="POST" class="reservation-form3">
+                                <form action="#" method="POST" class="reservation-form3">
                                     <div class="row">
                                         <div class="form-group col-12">
                                             <input type="tel" class="form-control" name="number" id="number"
@@ -900,7 +854,7 @@ Hero Area
                                             <i class="fal fa-user-group"></i>
                                         </div>
                                     </div>
-                                    <button class="th-btn">Reservation Now</button>
+                                    <button class="th-btn" type="button">Reservation Now</button>
                                     <p class="form-messages mb-0 mt-3"></p>
                                 </form>
                             </div>
@@ -983,13 +937,14 @@ Hero Area
     <script src="assets/js/main.js"></script>
     <script>
 
-
-
+        
 
         document.addEventListener('DOMContentLoaded', () => {
-            const divs = document.querySelectorAll('.product-info');
+          
 
-      
+        //cart_badge
+            const divs = document.querySelectorAll('.product-info');
+        
 
             divs.forEach(div => {
                
@@ -1046,11 +1001,82 @@ Hero Area
                 
             });
 
-         
+            const selectedFood=document.querySelector('.add_cart');
+            selectedFood.addEventListener('click',()=>{
+                const greatGreatGrandParent= selectedFood.parentElement.parentElement.parentElement.parentElement
+                
+                const foodImagePath=greatGreatGrandParent.querySelector('.product_image').getAttribute('src')
+                const priceValue = greatGreatGrandParent.querySelector('.price').innerHTML;
+                const productTitle = greatGreatGrandParent.querySelector('.product-title').innerHTML;
+                const qtyInput= greatGreatGrandParent.querySelector('.qty-input').value;
             
+                let cartString=`  <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="${foodImagePath}" alt="Cart Image">${productTitle}</a>
+                            <span class="quantity">${qtyInput} X
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">${priceValue[0]}</span>${priceValue.substring(1,priceValue.length)}</span>
+                            </span>
+                        </li>`
+                  let currentTotalFoodInCart = document.querySelector('.totalAmount').innerHTML;
+                if (currentTotalFoodInCart[0] == '₦') {
+                    currentTotalFoodInCart = currentTotalFoodInCart.substring(1, currentTotalFoodInCart.length);
+                }
+                const parsedPriceValue = parseInt(priceValue.substring(1, priceValue.length).replace(',', ''));
+                let parsedQty = parseInt(qtyInput);
+                let total = parsedPriceValue * parsedQty;
+                let parsedcurrentTotalFoodInCart = parseInt(currentTotalFoodInCart.replace(',', ''));
+               
+                const totalValue = parsedcurrentTotalFoodInCart + total
+                    document.querySelector('.totalAmount').innerHTML= totalValue.toLocaleString('en-NG', {
+                    style: 'currency',
+                    currency: 'NGN',
+                }) ;
+                    
+                    document.querySelector('.product_list_widget').innerHTML+=cartString
+                    document.querySelector('.mfp-close').click();
+                    let foodInCart= document.querySelector('.cart_badge').innerHTML;
+                   
+                    foodInCart=parseInt(foodInCart)+1;
+                    
 
+                    document.querySelector('.cart_badge').innerHTML=foodInCart
+                
+                 greatGreatGrandParent.querySelector('.qty-input').value=1
+
+                     const removeFromCartButton=document.querySelectorAll('.remove_from_cart_button');
 
         
+
+            removeFromCartButton.forEach(removeCart=>{
+                
+                removeCart.addEventListener('click',function(){
+                    const parentNode= removeCart.parentNode;
+                    console.log(parentNode)
+                    const cost= parentNode.querySelector('.quantity')
+                   const qtyValue= cost.textContent.replace(/\s/g, "")
+                    const amount=qtyValue.split('N')[1].replace(',', '')
+                    const qty= qtyValue.split('N')[0].replace('X','')
+                    const total=parseInt(amount)*parseInt(qty)
+
+                       let currentTotalFoodInCart = document.querySelector('.totalAmount').innerHTML;
+                    if (currentTotalFoodInCart[0] == '₦') {
+                        currentTotalFoodInCart = currentTotalFoodInCart.substring(1, currentTotalFoodInCart.length);
+                    }
+                   currentTotalFoodInCart =parseInt(currentTotalFoodInCart.replace(',', ''))-total;
+                    
+                document.querySelector('.totalAmount').innerHTML= currentTotalFoodInCart.toLocaleString('en-NG', {
+                        style: 'currency',
+                        currency: 'NGN',
+                    });
+
+                parentNode.remove();
+                   
+                })
+            });
+            })
+
+      
         });
 
     </script>
